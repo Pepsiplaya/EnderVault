@@ -1,0 +1,29 @@
+#ender-vault-title will simply replace the name of the vault inventory
+
+ender-vault-title: '&0E&5n&ad&ce&4r&5 &0V&5a&au&cl&4t&5'
+
+#replace-ender-chests: If set to true, Ender Chests will be completely
+#replaced with EnderVaults. Players will no longer be able to access
+#their Ender Chest inventories, and all interactions will be with their EnderVaults instead.
+
+replace-enderchest: false
+
+#locked-slot: This section allows you to customize the appearance of locked slots in an EnderVault.
+#material: The material used for locked slots. Use a valid Bukkit Material enum (e.g., GRAY_STAINED_GLASS_PANE).
+#display-name: The display name for the material, default is "&7No Permission"
+
+locked-slot:
+  material: GRAY_STAINED_GLASS_PANE
+  display-name: '&7No Permission'
+
+#open-vault-sound: This section allows you to configure the sound that plays when a player opens their EnderVault.
+#enabled: Set to true to enable the custom sound, or false to disable it.
+#sound: The sound that plays when opening an EnderVault. Use a valid Bukkit Sound enum (e.g., ENTITY_ENDER_CHEST_OPEN).
+#volume: The volume of the sound effect, ranging from 0.0 to 1.0.
+#pitch: The pitch of the sound effect, ranging from 0.0 to 2.0.
+
+open-vault-sound:
+  enabled: true
+  sound: BLOCK_ENDER_CHEST_OPEN
+  volume: 1.0
+  pitch: 1.0
