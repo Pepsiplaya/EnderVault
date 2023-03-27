@@ -1,0 +1,12 @@
+name: EnderVault
+version: '2.0'
+main: me.pepsiplaya.endervault.EnderVault
+author: Pepsiplaya
+description: A plugin that provides a limited-size ender vault for players
+api-version: 1.19
+
+commands:
+  ev:
+    description: Opens the ender vault
+    usage: /ev open
+    aliases: [endervault]
