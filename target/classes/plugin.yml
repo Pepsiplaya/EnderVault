@@ -1,6 +1,6 @@
 name: EnderVault
-version: '2.0'
-main: me.pepsiplaya.endervault.EnderVault
+version: 2.0.1
+main: me.pepsiplaya.endervaults.EnderVault
 author: Pepsiplaya
 description: A plugin that provides a limited-size ender vault for players
 api-version: 1.19

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EnderVault.iml" filepath="$PROJECT_DIR$/EnderVault.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EnderVaults.iml" filepath="$PROJECT_DIR$/EnderVaults.iml" />
     </modules>
   </component>
 </project>
